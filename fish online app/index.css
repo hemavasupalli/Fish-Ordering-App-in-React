@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    border: 2px solid;
+}
+.nav-items >ul
+ {
+    list-style-type: none;
+    display: flex;
+}
+.nav-items >ul>li {
+    padding:20px;
+    padding-right: 50px;;
+}
+.logo{
+    width:100px;
+    height:100px;}
+
+.fishtypes {
+
+    width:200px;
+    border: 2px solid ;
+    margin:20px;
+    padding: 10px;
+
+}
+.fishtypes >img {
+    width:100%;
+}
+.fish-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.search-bar {
+    
+    margin: 0 300  auto;
+    display: inline-block;
+}
+.search-bar >input{
+    width:500px;
+    height: 30px ;
+    
+}
+.search-bar >button{
+    width:100px;
+    height: 35px ;
+    
+}
