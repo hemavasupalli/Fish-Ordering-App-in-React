@@ -27,10 +27,12 @@
 }
 .fishtypes >img {
     width:100%;
+    border-radius: 14px;
 }
 .fish-list {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 50px;
 }
 .search-bar {
     
@@ -45,5 +47,50 @@
 .search-bar >button{
     width:100px;
     height: 35px ;
+    
+}
+.login {
+    background-color:darkblue;
+    color:azure
+}
+.fish-shimmer {
+    width:200px;
+    height: 200px;
+    margin: 20px;
+    background-color: grey;
+
+}
+.title
+{
+    color: #c2202f;
+   
+    font-size: 1.75rem;
+   text-align: center; 
+}
+.fishName {
+    color: #c2202f;
+    margin-bottom: 0;
+    font-size: 1.75rem;
+   text-align: center;
+
+}
+.fishImg{
+    border-radius: 14px;
+    width:45%;
+    margin: 50px;
+}  
+.details {
+    display: inline-block;
+    font-size: 1rem;
+    color: darkred;
+    text-align: center;
+
+   
+}
+    
+.fish-detail {
+    margin-bottom: 0;
+    font-size: 1.75rem;
+   text-align: center;
     
 }

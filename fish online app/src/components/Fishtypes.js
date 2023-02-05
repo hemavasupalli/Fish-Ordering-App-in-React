@@ -1,6 +1,6 @@
 import { Fishlistapi } from "./Fishlistapi";
 
-const Fishtypes=({thumb ,name ,price})=>
+const Fishtypes=({thumb ,name ,price, entity_id})=>
 {
   
    return (
